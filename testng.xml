@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="ServiceNSW_UI_API_TestAutomation" parallel="false">
+  <test name="UI_TEST">
+    <classes>
+    <class name="com.rahul.TestAutomation.ServiceNSW.Tests.UITests"></class>
+      </classes>
+  </test>
+  
+   <test name="API_TEST">
+    <classes>
+     <!--class name="com.rahul.TestAutomation.ServiceNSW.Tests.RestAPIClient"></class-->
+      </classes>
+  </test>
+</suite>
