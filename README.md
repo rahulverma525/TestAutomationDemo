@@ -34,6 +34,16 @@ Similary config.properties file would have to be changed if chrome is to be run 
 
 Also  bat files to start the selenium hub and node have to be manually clicked to start the grid before runnning the tests with grid configuration.
 
+Instructions for running the binary 
+=========================
+
+1) Extact runnable.7z file to a folder in local machine.
+2) Only if Grid is to be used , else move to step 3:
+a)Extact lib.7z under the same folder ( a lib subfolder with a selenium server jar file would be created)
+b) Execute StartGrid_Hub.bat abd StartGrid_Node.bat files
+3)Execute the 'StartTest.bat' to run the tests
+4) Comment out one of the test classes in 'testng.xml' if only  one of the UI or API tests are to be run 
+5) Check the reports under Reports folder after the run
 
 Pending:
 Yet to hook the API tests to circleCI to demonstrate automated run based on change triggers
