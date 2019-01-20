@@ -41,4 +41,6 @@ Write Performance tests for the API Testing where you hit both APIs
 •	10 times in an 1 minute duration 
 The API tests are taking data from the excel files , but still to write code to run this tests in a loop 10 times in an 1 minute duration
 
+Limitations:
+Currently, recompilation is needed if the configuration needs to be changed for headless, grid. Ideally the running package should have the config.properties included such that it can be changed from re-run and the already compiled classes should be able to get the updated configuration. 
 
